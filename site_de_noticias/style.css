@@ -4,7 +4,29 @@
     margin: 0%;
     padding: 0%;
 }
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+main {
+    width: 800px;
+    background-color: azure;
 
-.container_destaques{
+}
+.container_destaques {
+    height: 400px;
 
+}
+.container_img_destaques {
+    display: flex;
+    flex-direction: row;
+    height:300px;
+    border-left: 4px solid gray;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.container_img_destaques::-webkit-scrollbar{
+    overflow-x: hidden;
 }
