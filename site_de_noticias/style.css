@@ -30,3 +30,13 @@ main {
 .container_img_destaques::-webkit-scrollbar{
     overflow-x: hidden;
 }
+.container_img {
+    width: 300px;
+    height: 300px;
+
+}
+.container_img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
